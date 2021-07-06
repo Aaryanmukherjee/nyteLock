@@ -1,0 +1,316 @@
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+  
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+body {
+  font-family: 'Varela', sans-serif;
+  font-weight: 300;
+  color: whitesmoke;
+ }
+.logo-selection{
+  display: flex;
+  flex-direction: column;
+  width: 1300px;
+  margin: 4em auto 0 auto;
+  padding: 2em;
+  height: 30em;
+  align-items: center;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to bottom right, rgb(79, 79, 79), rgb(41, 41, 41));
+  border-radius: 20px;
+}
+.logo-selection-info{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  align-items: center;
+  /* margin: 4em 0em; */
+}
+.logo-selection-info .header .bullet{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(255, 204, 42);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+
+}
+.logo-selection-info .header .bullet svg{
+  margin-right: 1em;
+}
+.logo-selection-info .header .bullet h4{
+  margin: 0em;
+}
+.logo-selection-info .header h2{
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+.logo-selection-info .contact{
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 204, 42);
+  padding: .5em;
+  border-radius: 100px;
+  width:fit-content;
+  justify-content: space-between;
+  color: rgb(20, 2, 0);
+  font-weight: bold;
+  font-family: 'Varela', sans-serif;
+  border: none;
+  background-image: linear-gradient(0.25turn,rgb(255, 204, 42), rgb(255, 236, 174));
+  background-position: 0% 50%;
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  transition: background-size .4s;
+}
+.logo-selection-info .contact h4{
+  margin:0em .8em;
+  font-size: 18px;
+  letter-spacing: 1px;
+  transition: color .4s, text-decoration .4s;
+  
+}
+.logo-selection-info .contact:hover{
+  background-size: 100% 100%;
+  cursor: pointer;
+  
+ 
+
+}
+.logo-selection-info .contact:hover h4{
+  color: #fff;
+  text-decoration: underline white;
+  
+}
+
+.logo-selection-info .contact svg{
+  padding: .8em;
+  margin: .1em;
+  border-radius: 100%;
+  background-color: white;
+}
+
+
+.logo-nav{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+
+  
+  /* margin: 0 0 4em 0; */
+}
+
+.logo-style{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1em;
+  border: 2px solid rgb(102, 102, 102);
+  max-width: 11%;
+  min-width: 110px;
+  min-height: 11%;
+  border-radius: 8%;
+  transition: background-color .2s, color .2s, border .2s;
+
+}
+.logo-style h3{
+  max-width: 150px;
+  text-align: center;
+}
+.logo-style svg{
+  transition: color .2s, filter .2s;
+}
+
+.active, .logo-style:hover{
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+  border: 2px solid whitesmoke;
+  position: relative;
+}
+.active svg, .logo-style:hover svg{
+  filter: drop-shadow(3px 5px 5px rgba(145, 240, 255, 0.6));
+  color: black;
+}
+
+.logo-style:hover h3{
+  text-decoration: underline rgb(255, 204, 42) 3px;
+}
+
+.active:after {
+  content:'';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -20px;
+  width: 0;
+  height: 0;
+  border-top: solid 20px whitesmoke;
+  border-left: solid 20px transparent;
+  border-right: solid 20px transparent;
+}
+.logo-information{
+  width: 60%;
+  margin: 0 auto;
+  opacity: 1;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+
+.hide{
+  opacity: 0;
+}
+.transition{
+  transition: opacity .5s; 
+}
+.logo-description{
+  color: rgb(41, 41, 41);
+  width: 50%
+}
+.logo-description h2{
+  letter-spacing: 1px;
+  font-size: 40px;
+}
+.logo-description p{
+  letter-spacing: .5px;
+  font-size: 17px;
+  color:rgb(135, 135, 135);
+  line-height: 1.7;
+}
+
+.logo-examples{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo-examples img{
+  width: 100%;
+  
+  
+  height: fit-content;
+  
+  
+}
+.logo-examples .img-container{
+  width: 25%;
+  border: 1px solid rgb(233, 233, 233);
+  height: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.particles-background{
+  position: relative;
+  /* display: flex; */
+  align-items: flex-start;
+  justify-content: center;
+  height: 30em;
+  overflow-y: hidden;
+}
+
+@media screen and (max-width: 1400px) {
+
+  .logo-selection{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: 4em auto 0 auto;
+    padding: 2em;
+    height: 30em;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to bottom right, rgb(79, 79, 79), rgb(41, 41, 41));
+    border-radius: 20px;
+  }
+  
+
+  .logo-information{
+    width: 60%;
+    margin: 0 auto;
+    opacity: 1;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  .logo-description{
+    color: rgb(41, 41, 41);
+    width: 100%;
+  }
+  .logo-examples{
+    width: 100%;
+    margin-top: 1em;
+  }
+
+  .logo-nav{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 1em;
+    /* margin: 0 0 4em 0; */
+  }
+  .logo-style{
+    margin: 0 1em;
+  }
+  
+}
+@media screen and (max-width: 740px) {
+  .logo-selection-info {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1em;
+  }
+  .logo-selection-info .header h2{
+    margin: .25em 0;
+    font-size: 30px;
+  }
+  .logo-selection-info .contact h4{
+    font-size: 14px;
+  }
+  .logo-description h2 {
+    font-size: 30px;
+    margin-top: 0;
+  }
+  .logo-description p{
+    font-size: 12px;
+  }
+  /* .particles-background{
+    height: 35em;
+  } */
+}
+
+
+
