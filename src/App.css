@@ -203,6 +203,8 @@ body {
   font-size: 17px;
   color:rgb(135, 135, 135);
   line-height: 1.7;
+  background-color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .logo-examples{

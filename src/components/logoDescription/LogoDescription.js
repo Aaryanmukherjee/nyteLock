@@ -14,7 +14,7 @@ export const LogoDescription = ({logo}) =>{
     const descriptionsP1 = {
         "letter":`A Monogram or lettermark is a typography-based logo that's comprised of a few letters, usually a company's initials. The lettermark is all about simplicity.`,
 
-        "word":`Similar to a lettermark. a wordmark or logotype is a font-based logo that focuses on a business' name alone. Think Visa and Coca-cola. Wordmark logos really work well when
+        "word":`Similar to a lettermark, a wordmark or logotype is a font-based logo that focuses on a business' name alone. Think Visa and Coca-cola. Wordmark logos really work well when
         a company has a succinct and distinct name. Google's logo is a great exapmle of this. The name itself is catchy and memorable so, when combined with strong typography, the logo helps
         create strong brand recognition.`,
 
