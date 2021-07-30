@@ -1,3 +1,7 @@
+# Note
+
+This project was part of the internship interview process for Nytelock Digital, a professional logo design company based in singapore. My task was to recreate a portion of their website. Although the internship position was cancelled all-together, I have kept this repo public to demonstrate my aptitude in React.js :) 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
