@@ -1,6 +1,6 @@
 # Note
 
-This project was part of the internship interview process for Nytelock Digital, a professional logo design company based in Singapore. My task was to recreate a portion of their website. Although the internship position was cancelled all-together, I have kept this repo public to demonstrate my aptitude in React.js and CSS styling :) 
+This project was part of the internship interview process for Nytelock Digital, a professional logo design company based in Singapore. My task was to recreate a portion of their website. Although the internship position was cancelled all-together, I have kept this repo public to demonstrate my skills in React.js and CSS styling :) 
 
 # Getting Started with Create React App
 
